@@ -1,0 +1,19 @@
+$encabezadoDesktop: 70px;
+$pieDesktop: 20px;
+$textoDesktop: 15px;
+
+.textoIndex{
+    font-size: $encabezadoDesktop;
+}
+
+.encabezado{
+    font-size: $encabezadoDesktop;
+}
+
+.footers{
+    font-size: $pieDesktop;
+}
+
+.nosotros__texto--tamano{
+    font-size: $textoDesktop;
+}

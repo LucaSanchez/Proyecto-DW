@@ -1,0 +1,30 @@
+@import "font";
+
+.boton {
+    width:100px;
+	height: 25px;
+	background-color: white;
+	text-align:center;
+	color:black;
+	border-radius:10px;
+	border:1px solid black;
+    font-family: $merri;
+
+}
+
+.boton--enviar{
+    @extend .boton;
+    background-color: black;
+    color: white;
+}
+
+.boton--reset{
+    @extend .boton;
+    background-color: black;
+    color: white;    
+}
+.boton--ingreso{
+    @extend .boton;
+    background-color: black;
+    color: white;
+}

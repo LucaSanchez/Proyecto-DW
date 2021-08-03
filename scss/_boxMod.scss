@@ -1,0 +1,108 @@
+@import "tamano";
+@import "colores";
+
+$padding: 0px;
+$centro: center;
+$derecha: start;
+
+.container-fluid{
+    padding-left: $padding;
+    padding-right: $padding;
+    .navbar-nav{
+        align-items: $derecha;
+    }
+}
+
+
+.footers{
+    text-align: $centro;
+}
+
+.textoIndex{
+    text-align: $centro;
+}
+
+.encabezado{
+    text-align: $centro;
+}
+
+.nosotros__texto--box{
+    text-align: $centro;
+}
+
+.inicio__form--box{
+    text-align: $centro;
+}
+
+.inicio__img--box{
+    display: block;
+    margin: auto;
+}
+
+.contacto__formulario--box{
+    text-align: $centro;
+}
+
+.restablecer__img{
+    display: block;
+    margin: auto;
+}
+
+.restablecer_form--box{
+    text-align: $centro;
+}
+
+.tienda__tabla--box{
+    margin: auto;
+}
+@media only screen and (min-width:0px) and (max-width:767px){
+    .textoIndex{
+        font-size: 40px;
+    }
+    .footers h2{
+        font-size: 20px;
+    }
+    .encabezado{
+        font-size: 50px;
+    }
+    .nosotros__texto {
+        font-size: 12px;
+    }
+    .restablecer__img{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .inicio__img--box{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/*vista entre mobile y desktop*/
+@media only screen and (min-width:768px) and (max-width:1239px){
+    .textoIndex{
+        font-size: 50px;
+    }
+    .footers h2{
+        font-size: 20px;
+    }
+    .encabezado{
+        font-size: 50px;
+    }
+    .restablecer__img{
+        display: block;
+        margin: auto;
+        width: auto;
+    }
+    .inicio__img--box{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/*vista desktop*/
+@media only screen and (min-width:1240px){
+}

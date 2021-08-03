@@ -1,0 +1,207 @@
+.textoIndex {
+  font-size: 70px; }
+
+.encabezado {
+  font-size: 70px; }
+
+.footers {
+  font-size: 20px; }
+
+.nosotros__texto--tamano {
+  font-size: 15px; }
+
+.footers {
+  background-color: black;
+  color: white; }
+
+.textoIndex {
+  color: white;
+  background-color: black; }
+
+.encabezado {
+  color: white;
+  background-color: black; }
+
+.inicio__link--color {
+  color: black; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+  .container-fluid .navbar-nav {
+    align-items: start; }
+
+.footers {
+  text-align: center; }
+
+.textoIndex {
+  text-align: center; }
+
+.encabezado {
+  text-align: center; }
+
+.nosotros__texto--box {
+  text-align: center; }
+
+.inicio__form--box {
+  text-align: center; }
+
+.inicio__img--box {
+  display: block;
+  margin: auto; }
+
+.contacto__formulario--box {
+  text-align: center; }
+
+.restablecer__img {
+  display: block;
+  margin: auto; }
+
+.restablecer_form--box {
+  text-align: center; }
+
+.tienda__tabla--box {
+  margin: auto; }
+
+.footers {
+  background-color: black;
+  color: white; }
+
+.textoIndex {
+  color: white;
+  background-color: black; }
+
+.encabezado {
+  color: white;
+  background-color: black; }
+
+.inicio__link--color {
+  color: black; }
+
+.textoIndex {
+  font-family: "Dancing Script", cursive; }
+
+.footers {
+  font-family: "Merriweather", serif; }
+
+.encabezado {
+  font-family: "Dancing Script", cursive; }
+
+.nosotros__texto--font {
+  font-family: "Merriweather", serif; }
+
+.inicio__link--font {
+  font-family: "Merriweather", serif; }
+
+.contacto__formulario--font {
+  font-family: "Merriweather", serif; }
+
+.restablecer_form--font {
+  font-family: "Merriweather", serif; }
+
+.textoIndex {
+  font-size: 70px; }
+
+.encabezado {
+  font-size: 70px; }
+
+.footers {
+  font-size: 20px; }
+
+.nosotros__texto--tamano {
+  font-size: 15px; }
+
+.textoIndex {
+  font-family: "Dancing Script", cursive; }
+
+.footers {
+  font-family: "Merriweather", serif; }
+
+.encabezado {
+  font-family: "Dancing Script", cursive; }
+
+.nosotros__texto--font {
+  font-family: "Merriweather", serif; }
+
+.inicio__link--font {
+  font-family: "Merriweather", serif; }
+
+.contacto__formulario--font {
+  font-family: "Merriweather", serif; }
+
+.restablecer_form--font {
+  font-family: "Merriweather", serif; }
+
+.boton, .boton--enviar, .boton--reset, .boton--ingreso {
+  width: 100px;
+  height: 25px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-family: "Merriweather", serif; }
+
+.boton--enviar {
+  background-color: black;
+  color: white; }
+
+.boton--reset {
+  background-color: black;
+  color: white; }
+
+.boton--ingreso {
+  background-color: black;
+  color: white; }
+
+  @media only screen and (min-width:0px) and (max-width:767px){
+    .textoIndex{
+        font-size: 40px;
+    }
+    .footers h2{
+        font-size: 20px;
+    }
+    .encabezado{
+        font-size: 50px;
+    }
+    .nosotros__texto {
+        font-size: 12px;
+    }
+    .restablecer__img{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .inicio__img--box{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/*vista entre mobile y desktop*/
+@media only screen and (min-width:768px) and (max-width:1239px){
+    .textoIndex{
+        font-size: 50px;
+    }
+    .footers h2{
+        font-size: 20px;
+    }
+    .encabezado{
+        font-size: 50px;
+    }
+    .restablecer__img{
+        display: block;
+        margin: auto;
+        width: auto;
+    }
+    .inicio__img--box{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/*vista desktop*/
+@media only screen and (min-width:1240px){
+}

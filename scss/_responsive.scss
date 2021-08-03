@@ -1,0 +1,52 @@
+/*vista mobile*/
+@media only screen and (min-width:0px) and (max-width:767px){
+    .textoIndex{
+        font-size: 40px;
+    }
+    .footers h2{
+        font-size: 20px;
+    }
+    .encabezado{
+        font-size: 50px;
+    }
+    .nosotros__texto {
+        font-size: 12px;
+    }
+    .restablecer__img{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    .inicio__img--box{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/*vista entre mobile y desktop*/
+@media only screen and (min-width:768px) and (max-width:1239px){
+    .textoIndex{
+        font-size: 50px;
+    }
+    .footers h2{
+        font-size: 20px;
+    }
+    .encabezado{
+        font-size: 50px;
+    }
+    .restablecer__img{
+        display: block;
+        margin: auto;
+        width: auto;
+    }
+    .inicio__img--box{
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+/*vista desktop*/
+@media only screen and (min-width:1240px){
+}
