@@ -191,6 +191,12 @@
     width: 100%; } }
 
 /*vista desktop*/
+@media only screen and (min-width: 1240px) {
+  .navbar-nav a {
+    transition: all 100ms; }
+  .navbar-nav a:hover {
+    transform: translateY(-5px); } }
+
 .ventasCard {
   display: grid;
   gap: 1rem;
